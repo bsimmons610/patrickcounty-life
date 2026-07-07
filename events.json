@@ -1,0 +1,153 @@
+{
+  "_note": "SAMPLE DATA — every date, time, and venue below is a placeholder to verify or replace before launch. See README.md. Use admin.html to generate new entries.",
+  "events": [
+    {
+      "id": "kibler-valley-river-run-2026",
+      "title": "Kibler Valley River Run",
+      "category": "Outdoors",
+      "date": "2026-07-11",
+      "time": "09:00",
+      "endTime": "16:00",
+      "venue": "Kibler Valley",
+      "town": "Ararat",
+      "description": "Annual whitewater release on the Dan River through Kibler Valley. Kayaking, tubing, food vendors, and live music in one of the prettiest hollows in the county.",
+      "featured": true
+    },
+    {
+      "id": "stuart-farmers-market",
+      "title": "Stuart Farmers' Market",
+      "category": "Food & Farm",
+      "recurs": { "freq": "weekly", "day": "Friday", "from": "2026-05-01", "until": "2026-10-30" },
+      "time": "08:00",
+      "endTime": "12:00",
+      "venue": "Downtown Stuart",
+      "town": "Stuart",
+      "description": "Local produce, meats, eggs, baked goods, and crafts from Patrick County farms and makers. Every Friday morning through October."
+    },
+    {
+      "id": "mabry-mill-music",
+      "title": "Old-Time Music & Craft Demonstrations at Mabry Mill",
+      "category": "Live Music",
+      "recurs": { "freq": "weekly", "day": "Sunday", "from": "2026-05-03", "until": "2026-10-25" },
+      "time": "12:00",
+      "endTime": "16:00",
+      "venue": "Mabry Mill, Blue Ridge Parkway",
+      "town": "Meadows of Dan",
+      "description": "Sunday afternoon old-time and bluegrass music with traditional craft demonstrations at the most photographed spot on the Blue Ridge Parkway.",
+      "link": "https://www.nps.gov/places/mabry-mill.htm"
+    },
+    {
+      "id": "dehart-summer-concert-jul-2026",
+      "title": "Summer Concert Series at DeHart Park",
+      "category": "Live Music",
+      "date": "2026-07-18",
+      "time": "18:00",
+      "endTime": "21:00",
+      "venue": "DeHart Park",
+      "town": "Stuart",
+      "description": "Bring a lawn chair for an evening of live music at DeHart Park. Concessions available; kids' playground on site."
+    },
+    {
+      "id": "fairy-stone-hunt-jul-2026",
+      "title": "Guided Fairy Stone Hunt & Junior Ranger Day",
+      "category": "Family",
+      "date": "2026-07-25",
+      "time": "10:00",
+      "endTime": "13:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Ranger-led hunt for the famous staurolite 'fairy stone' crosses, plus Junior Ranger activities for kids. Meet at the park office.",
+      "link": "https://www.dcr.virginia.gov/state-parks/fairy-stone"
+    },
+    {
+      "id": "beach-music-festival-2026",
+      "title": "Beach Music Festival",
+      "category": "Festivals",
+      "date": "2026-08-01",
+      "time": "12:00",
+      "endTime": "18:00",
+      "venue": "DeHart Park",
+      "town": "Stuart",
+      "description": "An afternoon of beach music and shag dancing under the trees at DeHart Park. Food vendors, cornhole, and family fun.",
+      "featured": true
+    },
+    {
+      "id": "reynolds-lawn-concert-aug-2026",
+      "title": "Lawn Concert at Reynolds Homestead",
+      "category": "Live Music",
+      "date": "2026-08-08",
+      "time": "17:00",
+      "endTime": "20:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Evening concert on the lawn of the historic Reynolds Homestead. Picnics welcome; tours of the 1843 home before the show.",
+      "link": "https://reynoldshomestead.vt.edu"
+    },
+    {
+      "id": "primland-stargazing-aug-2026",
+      "title": "Stargazing at the Primland Observatory",
+      "category": "Outdoors",
+      "date": "2026-08-15",
+      "time": "21:00",
+      "endTime": "23:00",
+      "venue": "Primland Resort",
+      "town": "Meadows of Dan",
+      "description": "Guided night-sky viewing from Primland's mountaintop observatory — some of the darkest skies in Virginia. Reservations required."
+    },
+    {
+      "id": "ag-fair-2026",
+      "title": "Patrick County Agricultural Fair",
+      "category": "Festivals",
+      "date": "2026-09-14",
+      "endDate": "2026-09-19",
+      "time": "17:00",
+      "endTime": "22:00",
+      "venue": "Rotary Field",
+      "town": "Stuart",
+      "description": "The county fair: livestock shows, exhibits, carnival rides, demolition derby, fair food, and a week of small-town fun.",
+      "featured": true
+    },
+    {
+      "id": "apple-dumpling-festival-2026",
+      "title": "Apple Dumpling Festival",
+      "category": "Festivals",
+      "date": "2026-10-03",
+      "time": "09:00",
+      "endTime": "16:00",
+      "venue": "Downtown Stuart",
+      "town": "Stuart",
+      "description": "Fall festival in downtown Stuart with fresh apple dumplings, craft and food vendors, live music, and kids' activities."
+    },
+    {
+      "id": "trunk-or-treat-2026",
+      "title": "Trunk or Treat",
+      "category": "Family",
+      "date": "2026-10-31",
+      "time": "17:00",
+      "endTime": "19:00",
+      "venue": "Downtown Stuart",
+      "town": "Stuart",
+      "description": "Safe family trick-or-treating from decorated trunks downtown. Costume contest and candy for the kids."
+    },
+    {
+      "id": "veterans-day-2026",
+      "title": "Veterans Day Ceremony",
+      "category": "Community",
+      "date": "2026-11-11",
+      "time": "11:00",
+      "venue": "Veterans Memorial Park",
+      "town": "Stuart",
+      "description": "Community ceremony honoring Patrick County veterans, with color guard, guest speakers, and taps at the eleventh hour."
+    },
+    {
+      "id": "christmas-parade-2026",
+      "title": "Stuart Christmas Parade",
+      "category": "Holiday",
+      "date": "2026-12-05",
+      "time": "14:00",
+      "venue": "Main Street",
+      "town": "Stuart",
+      "description": "Floats, fire trucks, marching bands, and Santa himself rolling down Main Street to kick off the Christmas season."
+    }
+  ]
+}

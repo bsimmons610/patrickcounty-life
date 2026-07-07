@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Entry Helper — PatrickCounty.life</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .admin-wrap { max-width: 860px; margin: 30px auto 60px; padding: 0 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .admin-wrap h1 { grid-column: 1 / -1; }
+    .admin-wrap .hint { grid-column: 1 / -1; background: #fdf3df; border: 1px solid #eed9a9; border-radius: 10px; padding: 12px 16px; font-size: 0.9rem; }
+    form.panel label { display: block; font-size: 0.85rem; font-weight: 700; margin: 12px 0 4px; }
+    form.panel input, form.panel select, form.panel textarea {
+      width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; font: inherit; font-size: 0.92rem;
+    }
+    form.panel textarea { min-height: 90px; resize: vertical; }
+    .check-row { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+    .check-row input { width: auto; }
+    #output { width: 100%; min-height: 340px; font-family: Consolas, monospace; font-size: 0.82rem; border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fbfaf6; }
+    .recur-fields { display: none; }
+    .recur-fields.show { display: block; }
+    @media (max-width: 760px) { .admin-wrap { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Patrick<span>County</span>.life</a>
+    <nav class="site-nav"><a href="index.html">&larr; Back to the calendar</a></nav>
+  </div>
+</header>
+
+<div class="admin-wrap">
+  <h1>Event Entry Helper</h1>
+  <p class="hint">Fill in the form and copy the generated JSON into the <code>events</code> array in <strong>events.json</strong> (paste it after the last event, adding a comma before it). This page is a private tool — it isn't linked from the public site.</p>
+
+  <form class="panel" id="form">
+    <label>Event title *</label>
+    <input id="f-title" required placeholder="Apple Dumpling Festival">
+    <label>Category *</label>
+    <select id="f-cat">
+      <option>Festivals</option><option>Live Music</option><option>Outdoors</option>
+      <option>Food &amp; Farm</option><option>Family</option><option>Arts &amp; Culture</option>
+      <option>Community</option><option>Holiday</option>
+    </select>
+    <div class="check-row"><input type="checkbox" id="f-recurs"><label for="f-recurs" style="margin:0">Repeats weekly</label></div>
+    <div id="single-fields">
+      <label>Date *</label>
+      <input id="f-date" type="date">
+      <label>End date (multi-day events only)</label>
+      <input id="f-enddate" type="date">
+    </div>
+    <div class="recur-fields" id="recur-fields">
+      <label>Day of week</label>
+      <select id="f-day"><option>Sunday</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option selected>Friday</option><option>Saturday</option></select>
+      <label>First date</label>
+      <input id="f-from" type="date">
+      <label>Last date</label>
+      <input id="f-until" type="date">
+    </div>
+    <label>Start time</label>
+    <input id="f-time" type="time">
+    <label>End time</label>
+    <input id="f-endtime" type="time">
+    <label>Venue</label>
+    <input id="f-venue" placeholder="DeHart Park">
+    <label>Town</label>
+    <input id="f-town" placeholder="Stuart">
+    <label>Description</label>
+    <textarea id="f-desc" placeholder="One or two sentences about the event."></textarea>
+    <label>Website link (optional)</label>
+    <input id="f-link" type="url" placeholder="https://">
+    <div class="check-row"><input type="checkbox" id="f-featured"><label for="f-featured" style="margin:0">Featured (pinned on homepage)</label></div>
+  </form>
+
+  <div class="panel">
+    <h2 style="margin-top:0">Generated JSON</h2>
+    <textarea id="output" readonly spellcheck="false"></textarea>
+    <p style="margin:12px 0 0"><button class="button" id="copy">Copy to clipboard</button> <span id="copied" style="color:var(--pine);font-weight:600"></span></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+
+  function slug(s) {
+    return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 50);
+  }
+
+  function build() {
+    var recurs = $("f-recurs").checked;
+    $("recur-fields").classList.toggle("show", recurs);
+    $("single-fields").style.display = recurs ? "none" : "";
+
+    var ev = {};
+    var title = $("f-title").value.trim();
+    var idBase = slug(title) || "new-event";
+    ev.id = recurs ? idBase : idBase + ($("f-date").value ? "-" + $("f-date").value : "");
+    ev.title = title || "New Event";
+    ev.category = $("f-cat").value;
+    if (recurs) {
+      ev.recurs = { freq: "weekly", day: $("f-day").value, from: $("f-from").value || "2026-01-01", until: $("f-until").value || "2026-12-31" };
+    } else {
+      ev.date = $("f-date").value || "2026-01-01";
+      if ($("f-enddate").value) ev.endDate = $("f-enddate").value;
+    }
+    if ($("f-time").value) ev.time = $("f-time").value;
+    if ($("f-endtime").value) ev.endTime = $("f-endtime").value;
+    if ($("f-venue").value.trim()) ev.venue = $("f-venue").value.trim();
+    if ($("f-town").value.trim()) ev.town = $("f-town").value.trim();
+    if ($("f-desc").value.trim()) ev.description = $("f-desc").value.trim();
+    if ($("f-link").value.trim()) ev.link = $("f-link").value.trim();
+    if ($("f-featured").checked) ev.featured = true;
+
+    $("output").value = JSON.stringify(ev, null, 2);
+  }
+
+  document.getElementById("form").addEventListener("input", build);
+  document.getElementById("form").addEventListener("change", build);
+  $("copy").addEventListener("click", function (e) {
+    e.preventDefault();
+    navigator.clipboard.writeText($("output").value).then(function () {
+      $("copied").textContent = "Copied!";
+      setTimeout(function () { $("copied").textContent = ""; }, 2000);
+    });
+  });
+  build();
+})();
+</script>
+</body>
+</html>

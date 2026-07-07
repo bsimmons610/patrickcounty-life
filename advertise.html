@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advertise — PatrickCounty.life</title>
+  <meta name="description" content="Put your business in front of Patrick County locals and visitors planning their week. Sponsorships start at $25/month.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .adv-hero { text-align: center; padding: 50px 0 70px; }
+    .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin: -40px auto 40px; max-width: 1000px; padding: 0 20px; position: relative; z-index: 2; }
+    .tier { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; display: flex; flex-direction: column; }
+    .tier h3 { margin: 0 0 4px; }
+    .tier .price { font-size: 1.9rem; font-weight: 800; color: var(--pine); font-family: "Lora", Georgia, serif; }
+    .tier .price small { font-size: 0.9rem; color: var(--muted); font-weight: 400; }
+    .tier ul { padding-left: 18px; margin: 12px 0 20px; font-size: 0.92rem; color: var(--ink); flex: 1; }
+    .tier li { margin-bottom: 6px; }
+    .tier.popular { border: 2px solid var(--accent); }
+    .tier .tag { align-self: flex-start; background: var(--accent); color: #fff; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 3px 10px; border-radius: 999px; margin-bottom: 8px; }
+    .why { max-width: 760px; margin: 0 auto 50px; padding: 0 20px; }
+    .why h2 { font-size: 1.4rem; }
+    .why p { color: var(--ink); }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Patrick<span>County</span>.life</a>
+    <nav class="site-nav">
+      <a href="index.html">Events</a>
+      <a class="nav-cta" href="mailto:mail@brycesimmons.com?subject=Advertising%20on%20PatrickCounty.life">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero adv-hero">
+  <div class="wrap">
+    <h1>Put your business in front of Patrick County</h1>
+    <p class="tagline">PatrickCounty.life is where locals and visitors look to plan their week — festivals, music, markets, and everything in between. Your sponsorship keeps the calendar free for the whole community.</p>
+  </div>
+  <svg class="ridge" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,60 L140,22 L290,55 L450,10 L610,50 L770,18 L930,55 L1075,30 L1200,58 L1200,90 L0,90 Z" fill="rgba(250,246,238,0.28)"/>
+    <path d="M0,74 L170,42 L330,68 L500,30 L660,64 L830,38 L990,68 L1120,50 L1200,70 L1200,90 L0,90 Z" fill="#faf6ee"/>
+  </svg>
+</section>
+
+<div class="tiers">
+  <div class="tier">
+    <h3>Community Sponsor</h3>
+    <div class="price">$25<small>/month</small></div>
+    <ul>
+      <li>Your business name &amp; link in the site footer</li>
+      <li>Listed on our sponsors panel</li>
+      <li>Our thanks — you're keeping this free</li>
+    </ul>
+    <a class="button" href="mailto:mail@brycesimmons.com?subject=Community%20Sponsor%20—%20PatrickCounty.life">Become a sponsor</a>
+  </div>
+  <div class="tier popular">
+    <span class="tag">Most popular</span>
+    <h3>Local Business</h3>
+    <div class="price">$50<small>/month</small></div>
+    <ul>
+      <li>Sponsor card with your logo in the sidebar, sitewide</li>
+      <li>Link to your website or Facebook page</li>
+      <li>Everything in Community Sponsor</li>
+    </ul>
+    <a class="button accent" href="mailto:mail@brycesimmons.com?subject=Local%20Business%20Sponsor%20—%20PatrickCounty.life">Become a sponsor</a>
+  </div>
+  <div class="tier">
+    <h3>Featured Partner</h3>
+    <div class="price">$100<small>/month</small></div>
+    <ul>
+      <li>Top sidebar placement with your logo</li>
+      <li>Your events pinned as "Featured" on the homepage</li>
+      <li>Mention in the weekly events roundup</li>
+      <li>Everything in Local Business</li>
+    </ul>
+    <a class="button" href="mailto:mail@brycesimmons.com?subject=Featured%20Partner%20—%20PatrickCounty.life">Become a partner</a>
+  </div>
+</div>
+
+<section class="why">
+  <h2>Why advertise here?</h2>
+  <p>People visit an event calendar when they're deciding where to spend their weekend — and their money. That's the moment your restaurant, shop, orchard, or service wants to be seen.</p>
+  <p>Sponsorships are month-to-month with no contracts. Nonprofit and event-organizer rates are available — just ask.</p>
+  <p><a class="button" href="mailto:mail@brycesimmons.com?subject=Advertising%20on%20PatrickCounty.life">Email us to get started</a></p>
+</section>
+
+<footer class="site-footer">
+  <p class="wrap colophon">&copy; <span id="year"></span> PatrickCounty.life &middot; Made in Patrick County</p>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

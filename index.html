@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PatrickCounty.life — Things to Do in Patrick County, Virginia</title>
+  <meta name="description" content="The event calendar for Patrick County, Virginia. Festivals, live music, farmers markets, outdoor adventures, and community events in Stuart, Meadows of Dan, Critz, Ararat, and beyond.">
+  <link rel="canonical" href="https://patrickcounty.life/">
+  <meta property="og:title" content="PatrickCounty.life — Things to Do in Patrick County, VA">
+  <meta property="og:description" content="Festivals, live music, farmers markets, and community events across Patrick County, Virginia.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://patrickcounty.life/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PatrickCounty.life",
+    "url": "https://patrickcounty.life/",
+    "description": "The event calendar for Patrick County, Virginia."
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">Patrick<span>County</span>.life</a>
+    <nav class="site-nav">
+      <a href="#events">Events</a>
+      <a href="#weekend">This Weekend</a>
+      <a href="mailto:mail@brycesimmons.com?subject=Event%20for%20PatrickCounty.life&body=Event%20name%3A%0ADate%3A%0ATime%3A%0AVenue%2Flocation%3A%0AShort%20description%3A%0ALink%20(optional)%3A%0AYour%20name%20%26%20contact%3A">Submit an Event</a>
+      <a class="nav-cta" href="advertise.html">Advertise</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Things to do in Patrick County, Virginia</h1>
+    <p class="tagline">Festivals, live music, farmers markets, and mountain adventures — from Stuart to Meadows of Dan.</p>
+    <div class="search-row">
+      <input type="search" id="search" placeholder="Search events, venues, towns&hellip;" aria-label="Search events">
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+  </div>
+  <svg class="ridge" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,60 L140,22 L290,55 L450,10 L610,50 L770,18 L930,55 L1075,30 L1200,58 L1200,90 L0,90 Z" fill="rgba(250,246,238,0.28)"/>
+    <path d="M0,74 L170,42 L330,68 L500,30 L660,64 L830,38 L990,68 L1120,50 L1200,70 L1200,90 L0,90 Z" fill="#faf6ee"/>
+  </svg>
+</section>
+
+<main class="wrap layout" id="events">
+  <div class="content">
+    <div class="toolbar">
+      <div class="view-toggle" role="tablist">
+        <button id="btn-list" class="active" role="tab" aria-selected="true">List</button>
+        <button id="btn-month" role="tab" aria-selected="false">Calendar</button>
+      </div>
+      <div class="month-nav" id="month-nav" hidden>
+        <button id="prev-month" aria-label="Previous month">&larr;</button>
+        <strong id="month-label"></strong>
+        <button id="next-month" aria-label="Next month">&rarr;</button>
+        <button id="today-btn" class="today-btn">Today</button>
+      </div>
+    </div>
+    <div id="featured"></div>
+    <div id="list-view"></div>
+    <div id="month-view" hidden></div>
+  </div>
+
+  <aside class="sidebar">
+    <section class="panel" id="weekend">
+      <h2>This Weekend</h2>
+      <div id="weekend-list"></div>
+    </section>
+
+    <section class="panel sponsors">
+      <h2>Our Sponsors</h2>
+      <p class="sponsor-note">These local businesses keep this calendar free for everyone.</p>
+      <a class="ad-slot" href="advertise.html">
+        <strong>Your business here</strong>
+        <span>Reach locals &amp; visitors planning their week</span>
+      </a>
+      <a class="ad-slot" href="advertise.html">
+        <strong>Your business here</strong>
+        <span>Sponsor spots from $25/month</span>
+      </a>
+      <!-- AdSense: once approved, replace an .ad-slot with your ad unit code. See README.md. -->
+    </section>
+
+    <section class="panel">
+      <h2>Know of an event?</h2>
+      <p>Church suppers, ball games, fundraisers, music — if it's happening in Patrick County, it belongs here.</p>
+      <a class="button" href="mailto:mail@brycesimmons.com?subject=Event%20for%20PatrickCounty.life&body=Event%20name%3A%0ADate%3A%0ATime%3A%0AVenue%2Flocation%3A%0AShort%20description%3A%0ALink%20(optional)%3A%0AYour%20name%20%26%20contact%3A">Submit an event — it's free</a>
+    </section>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <strong>PatrickCounty.life</strong>
+      <p>A community calendar for Patrick County, Virginia. Event details can change — please confirm with the organizer before you go.</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:mail@brycesimmons.com?subject=Event%20for%20PatrickCounty.life">Submit an event</a>
+      <a href="advertise.html">Advertise with us</a>
+      <a href="mailto:mail@brycesimmons.com?subject=PatrickCounty.life">Contact</a>
+    </div>
+  </div>
+  <p class="wrap colophon">&copy; <span id="year"></span> PatrickCounty.life &middot; Made in Patrick County</p>
+</footer>
+
+<div class="modal-overlay" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
