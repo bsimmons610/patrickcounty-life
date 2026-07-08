@@ -16,7 +16,7 @@ A community event calendar for Patrick County, Virginia. Pure static site — no
 
 The seeded events are **samples with guessed dates**. Real Patrick County events were used as inspiration (Ag Fair, farmers market, Kibler Valley, etc.), but every date, time, and detail must be verified with the organizers before the site goes public.
 
-Also swap `mail@brycesimmons.com` for a domain address (e.g. `events@patrickcounty.life`) once you set up email forwarding — it appears in `index.html` and `advertise.html`.
+Contact links use `events@patrickcounty.life` (in `index.html` and `advertise.html`) — this requires the Email Routing rule in Cloudflare (Email → Email Routing) forwarding that address to a real inbox, or mail to it will bounce.
 
 ## Adding / editing events
 

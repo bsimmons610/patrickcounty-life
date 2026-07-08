@@ -25,18 +25,6 @@
       "description": "Local produce, meats, eggs, baked goods, and crafts from Patrick County farms and makers. Every Friday morning through October."
     },
     {
-      "id": "mabry-mill-music",
-      "title": "Old-Time Music & Craft Demonstrations at Mabry Mill",
-      "category": "Live Music",
-      "recurs": { "freq": "weekly", "day": "Sunday", "from": "2026-05-03", "until": "2026-10-25" },
-      "time": "12:00",
-      "endTime": "16:00",
-      "venue": "Mabry Mill, Blue Ridge Parkway",
-      "town": "Meadows of Dan",
-      "description": "Sunday afternoon old-time and bluegrass music with traditional craft demonstrations at the most photographed spot on the Blue Ridge Parkway.",
-      "link": "https://www.nps.gov/places/mabry-mill.htm"
-    },
-    {
       "id": "dehart-summer-concert-jul-2026",
       "title": "Summer Concert Series at DeHart Park",
       "category": "Live Music",
