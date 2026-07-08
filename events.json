@@ -1,5 +1,5 @@
 {
-  "_note": "SAMPLE DATA — every date, time, and venue below is a placeholder to verify or replace before launch. See README.md. Use admin.html to generate new entries.",
+  "_note": "Use admin.html to generate new entries. STILL-UNVERIFIED placeholders (dates/details are guesses): kibler-valley-river-run-2026, stuart-farmers-market, dehart-summer-concert-jul-2026, fairy-stone-hunt-jul-2026, reynolds-lawn-concert-aug-2026, primland-stargazing-aug-2026, trunk-or-treat-2026, veterans-day-2026, christmas-parade-2026. Everything else is verified from an official source.",
   "events": [
     {
       "id": "kibler-valley-river-run-2026",
@@ -17,7 +17,12 @@
       "id": "stuart-farmers-market",
       "title": "Stuart Farmers' Market",
       "category": "Food & Farm",
-      "recurs": { "freq": "weekly", "day": "Friday", "from": "2026-05-01", "until": "2026-10-30" },
+      "recurs": {
+        "freq": "weekly",
+        "day": "Friday",
+        "from": "2026-05-01",
+        "until": "2026-10-30"
+      },
       "time": "08:00",
       "endTime": "12:00",
       "venue": "Downtown Stuart",
@@ -207,6 +212,204 @@
       "venue": "Main Street",
       "town": "Stuart",
       "description": "Floats, fire trucks, marching bands, and Santa himself rolling down Main Street to kick off the Christmas season."
+    },
+    {
+      "id": "bos-business-2026-07-13",
+      "title": "Board of Supervisors Business Meeting",
+      "category": "Community",
+      "date": "2026-07-13",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Regular business meeting of the Patrick County Board of Supervisors in the third-floor board chamber. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-business-2026-08-10",
+      "title": "Board of Supervisors Business Meeting",
+      "category": "Community",
+      "date": "2026-08-10",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Regular business meeting of the Patrick County Board of Supervisors in the third-floor board chamber. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-business-2026-09-14",
+      "title": "Board of Supervisors Business Meeting",
+      "category": "Community",
+      "date": "2026-09-14",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Regular business meeting of the Patrick County Board of Supervisors in the third-floor board chamber. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-business-2026-10-19",
+      "title": "Board of Supervisors Business Meeting",
+      "category": "Community",
+      "date": "2026-10-19",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Regular business meeting of the Patrick County Board of Supervisors in the third-floor board chamber. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-business-2026-11-16",
+      "title": "Board of Supervisors Business Meeting",
+      "category": "Community",
+      "date": "2026-11-16",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Regular business meeting of the Patrick County Board of Supervisors in the third-floor board chamber. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-business-2026-12-14",
+      "title": "Board of Supervisors Business Meeting",
+      "category": "Community",
+      "date": "2026-12-14",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Regular business meeting of the Patrick County Board of Supervisors in the third-floor board chamber. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-working-2026-07-27",
+      "title": "Board of Supervisors Working Session",
+      "category": "Community",
+      "date": "2026-07-27",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Working session of the Patrick County Board of Supervisors, held as necessary — check the county agenda center to confirm. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-working-2026-08-24",
+      "title": "Board of Supervisors Working Session",
+      "category": "Community",
+      "date": "2026-08-24",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Working session of the Patrick County Board of Supervisors, held as necessary — check the county agenda center to confirm. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-working-2026-09-28",
+      "title": "Board of Supervisors Working Session",
+      "category": "Community",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Working session of the Patrick County Board of Supervisors, held as necessary — check the county agenda center to confirm. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-working-2026-10-26",
+      "title": "Board of Supervisors Working Session",
+      "category": "Community",
+      "date": "2026-10-26",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Working session of the Patrick County Board of Supervisors, held as necessary — check the county agenda center to confirm. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-working-2026-11-23",
+      "title": "Board of Supervisors Working Session",
+      "category": "Community",
+      "date": "2026-11-23",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Working session of the Patrick County Board of Supervisors, held as necessary — check the county agenda center to confirm. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "bos-working-2026-12-28",
+      "title": "Board of Supervisors Working Session",
+      "category": "Community",
+      "date": "2026-12-28",
+      "time": "18:00",
+      "venue": "Veterans Memorial Administration Building, 106 Rucker St",
+      "town": "Stuart",
+      "description": "Working session of the Patrick County Board of Supervisors, held as necessary — check the county agenda center to confirm. Open to the public.",
+      "link": "https://www.co.patrick.va.us/185/Board-of-Supervisors"
+    },
+    {
+      "id": "stuart-council-2026-07-15",
+      "title": "Stuart Town Council Meeting",
+      "category": "Community",
+      "date": "2026-07-15",
+      "time": "18:00",
+      "venue": "Stuart Town Office, 100 Patrick Ave",
+      "town": "Stuart",
+      "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
+      "link": "https://stuartva.org/town-council-meetings/"
+    },
+    {
+      "id": "stuart-council-2026-08-19",
+      "title": "Stuart Town Council Meeting",
+      "category": "Community",
+      "date": "2026-08-19",
+      "time": "18:00",
+      "venue": "Stuart Town Office, 100 Patrick Ave",
+      "town": "Stuart",
+      "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
+      "link": "https://stuartva.org/town-council-meetings/"
+    },
+    {
+      "id": "stuart-council-2026-09-16",
+      "title": "Stuart Town Council Meeting",
+      "category": "Community",
+      "date": "2026-09-16",
+      "time": "18:00",
+      "venue": "Stuart Town Office, 100 Patrick Ave",
+      "town": "Stuart",
+      "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
+      "link": "https://stuartva.org/town-council-meetings/"
+    },
+    {
+      "id": "stuart-council-2026-10-21",
+      "title": "Stuart Town Council Meeting",
+      "category": "Community",
+      "date": "2026-10-21",
+      "time": "18:00",
+      "venue": "Stuart Town Office, 100 Patrick Ave",
+      "town": "Stuart",
+      "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
+      "link": "https://stuartva.org/town-council-meetings/"
+    },
+    {
+      "id": "stuart-council-2026-11-18",
+      "title": "Stuart Town Council Meeting",
+      "category": "Community",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "venue": "Stuart Town Office, 100 Patrick Ave",
+      "town": "Stuart",
+      "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
+      "link": "https://stuartva.org/town-council-meetings/"
+    },
+    {
+      "id": "stuart-council-2026-12-16",
+      "title": "Stuart Town Council Meeting",
+      "category": "Community",
+      "date": "2026-12-16",
+      "time": "18:00",
+      "venue": "Stuart Town Office, 100 Patrick Ave",
+      "town": "Stuart",
+      "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
+      "link": "https://stuartva.org/town-council-meetings/"
     }
   ]
 }
