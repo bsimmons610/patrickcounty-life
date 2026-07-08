@@ -38,6 +38,37 @@
       "description": "Grab a pint with the Rotary Club of Stuart and support Patrick County High School teachers. A casual evening social — everyone welcome."
     },
     {
+      "id": "stagecoach-third-thursday-2026-07-16",
+      "title": "Third Thursday Craft Night at Stagecoach Coffee",
+      "category": "Arts & Culture",
+      "date": "2026-07-16",
+      "time": "18:00",
+      "venue": "Uptown Stagecoach",
+      "town": "Stuart",
+      "description": "Third Thursday make-and-take: craft a HOME porch leaner sign with an interchangeable letter O to swap out through the seasons."
+    },
+    {
+      "id": "crochet-and-chill-2026-07-18",
+      "title": "Crochet and Chill 2.0",
+      "category": "Arts & Culture",
+      "date": "2026-07-18",
+      "time": "10:30",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "A laid-back crochet session at the Patrick County Library, hosted by the Blue Ridge Regional Library."
+    },
+    {
+      "id": "youth-art-program-2026-07-22",
+      "title": "Youth Art Program at the Library",
+      "category": "Family",
+      "date": "2026-07-22",
+      "time": "10:30",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Karen Sigmon teaches kids about the artist Maria Martinez, then students create their own work of art. Free at the Patrick County Library, 116 W Blue Ridge St.",
+      "link": "https://www.facebook.com/events/1191415299798048/"
+    },
+    {
       "id": "rural-everywhere-2026-07-27",
       "title": "Rural Everywhere: Chamber & Rotary Joint Meeting",
       "category": "Community",
