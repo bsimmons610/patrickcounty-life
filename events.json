@@ -83,6 +83,27 @@
       "link": "https://reynoldshomestead.vt.edu"
     },
     {
+      "id": "hammerheads-golf-tournament-2026",
+      "title": "Hall Hammerheads Annual Golf Tournament",
+      "category": "Community",
+      "date": "2026-08-15",
+      "time": "09:00",
+      "venue": "Gordon Trent Golf Course",
+      "town": "Stuart",
+      "description": "Annual golf tournament benefiting Hammerheads youth baseball — prizes, games, and lunch at Gordon Trent Golf Course in the Blue Ridge foothills.",
+      "link": "https://www.facebook.com/events/1873012306697696"
+    },
+    {
+      "id": "wayfest-2026",
+      "title": "Wayfest 2026 — Free Concert & Community Event",
+      "category": "Festivals",
+      "date": "2026-08-15",
+      "time": "16:00",
+      "venue": "Dominion Valley Park",
+      "town": "Stuart",
+      "description": "A free concert and community celebration at Dominion Valley Park. Live music, food, and family fun — no ticket required."
+    },
+    {
       "id": "primland-stargazing-aug-2026",
       "title": "Stargazing at the Primland Observatory",
       "category": "Outdoors",
@@ -92,6 +113,29 @@
       "venue": "Primland Resort",
       "town": "Meadows of Dan",
       "description": "Guided night-sky viewing from Primland's mountaintop observatory — some of the darkest skies in Virginia. Reservations required."
+    },
+    {
+      "id": "indigo-shibori-2026-08-30",
+      "title": "Homestead Artisan Series: Indigo Shibori",
+      "category": "Arts & Culture",
+      "date": "2026-08-30",
+      "time": "13:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Hands-on indigo shibori dyeing workshop, part of the Homestead Artisan Series highlighting traditional and historic crafts and folk arts of the region.",
+      "link": "https://www.facebook.com/events/2831300943893180"
+    },
+    {
+      "id": "front-porch-fest-17-2026",
+      "title": "Front Porch Fest 17",
+      "category": "Festivals",
+      "date": "2026-09-03",
+      "endDate": "2026-09-06",
+      "venue": "Spirithaven Farm",
+      "town": "Stuart",
+      "description": "Four days of music and camping at Spirithaven Farm, headlined by Shinyribs with Chalk Dinosaur, Jon Stickley Trio, Big Daddy Love, Tae & The Neighborly, and two dozen more acts. Family-friendly, rain or shine, hosted by One Family Productions. Gates open 1 PM Thursday; 9 AM Friday through Sunday.",
+      "link": "https://frontporchfest.com",
+      "featured": true
     },
     {
       "id": "ag-fair-2026",
@@ -110,12 +154,12 @@
       "id": "apple-dumpling-festival-2026",
       "title": "Apple Dumpling Festival",
       "category": "Festivals",
-      "date": "2026-10-03",
-      "time": "09:00",
-      "endTime": "16:00",
-      "venue": "Downtown Stuart",
+      "date": "2026-10-17",
+      "time": "10:00",
+      "venue": "South Main Street, Downtown Stuart",
       "town": "Stuart",
-      "description": "Fall festival in downtown Stuart with fresh apple dumplings, craft and food vendors, live music, and kids' activities."
+      "description": "Fall festival in downtown Stuart with fresh apple dumplings, craft and food vendors, live music, and kids' activities.",
+      "featured": true
     },
     {
       "id": "trunk-or-treat-2026",
