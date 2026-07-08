@@ -61,15 +61,14 @@
     },
     {
       "id": "beach-music-festival-2026",
-      "title": "Beach Music Festival",
+      "title": "44th Annual Beach Music Festival",
       "category": "Festivals",
-      "date": "2026-08-01",
-      "time": "12:00",
-      "endTime": "18:00",
-      "venue": "DeHart Park",
+      "date": "2026-06-11",
+      "endDate": "2026-06-13",
+      "venue": "Wayside Park",
       "town": "Stuart",
-      "description": "An afternoon of beach music and shag dancing under the trees at DeHart Park. Food vendors, cornhole, and family fun.",
-      "featured": true
+      "description": "Three days of beach music at Wayside Park, hosted by the Rotary Club of Stuart. The 2026 lineup featured The Embers, Jim Quick & Coastline, The Tams, and The Swingin' Medallions, with camping on site. Back for year 45 in 2027 — dates announced at beachfestival.com.",
+      "link": "https://beachfestival.com"
     },
     {
       "id": "reynolds-lawn-concert-aug-2026",
