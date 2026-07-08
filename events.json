@@ -762,20 +762,23 @@
       "venue": "Reynolds Homestead",
       "town": "Critz",
       "description": "Guided painting workshop in the Homestead Artisan Series at Reynolds Homestead.",
-      "link": "https://www.facebook.com/events/728739420296930/"
+      "link": "https://www.facebook.com/events/728739420296930/",
+      "endTime": "15:00"
     },
     {
       "id": "yoga-flow-reynolds",
       "title": "Yoga Flow with Ally Snead",
       "category": "Community",
       "recurs": {
-        "freq": "weekly",
-        "day": "Wednesday",
-        "from": "2026-07-08",
-        "until": "2026-08-26"
+        "dates": [
+          "2026-07-15",
+          "2026-07-29",
+          "2026-08-12",
+          "2026-08-26"
+        ]
       },
       "time": "18:30",
-      "endTime": "19:45",
+      "endTime": "19:30",
       "venue": "Reynolds Homestead",
       "town": "Critz",
       "description": "Evening yoga flow on the grounds of Reynolds Homestead. All levels welcome.",
@@ -986,6 +989,57 @@
       "town": "Floyd",
       "description": "Sunday wood-fired pizza and wine afternoons at Villa Appalaccia, near Mabry Mill on the Parkway.",
       "link": "https://www.villaappalaccia.com/upcoming-events/"
+    },
+    {
+      "id": "heritage-sunday-porch-2026-07-19",
+      "title": "Heritage Sunday Tours: Pickin' on the Porch",
+      "category": "Arts & Culture",
+      "date": "2026-07-19",
+      "time": "13:00",
+      "endTime": "16:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Porch-culture edition of Heritage Sunday: tours of the 1843 homestead with old-time pickin' on the historic porch.",
+      "link": "https://reynoldshomestead.vt.edu/calendar.html"
+    },
+    {
+      "id": "little-historians",
+      "title": "Little Historians: Story Time on the Porch",
+      "category": "Family",
+      "recurs": {
+        "dates": [
+          "2026-07-24",
+          "2026-08-28"
+        ]
+      },
+      "time": "10:00",
+      "endTime": "11:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Story and hands-on activity for young children on the historic porch at Reynolds Homestead.",
+      "link": "https://reynoldshomestead.vt.edu/calendar.html"
+    },
+    {
+      "id": "bushels-and-barrels-2026-09-26",
+      "title": "Bushels & Barrels Farm-to-Table Brunch",
+      "category": "Food & Farm",
+      "date": "2026-09-26",
+      "time": "11:00",
+      "endTime": "14:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Farm-to-table brunch celebrating local growers and makers on the grounds of Reynolds Homestead.",
+      "link": "https://reynoldshomestead.vt.edu/calendar.html"
+    },
+    {
+      "id": "college-older-adults-fall-2026",
+      "title": "College for Older Adults: Fall Session Begins",
+      "category": "Community",
+      "date": "2026-09-28",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Fall session kickoff for the College for Older Adults - lifelong-learning classes for the 55+ crowd. Registration through Reynolds Homestead.",
+      "link": "https://reynoldshomestead.vt.edu/calendar.html"
     }
   ]
 }
