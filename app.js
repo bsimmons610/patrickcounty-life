@@ -56,6 +56,19 @@
 
   /* ---------- expand events into dated occurrences ---------- */
 
+  // week: 1-4 for "nth <weekday> of the month", or "last"
+  function nthWeekdayOfMonth(year, month, dow, week) {
+    if (week === "last") {
+      var last = new Date(year, month + 1, 0);
+      while (last.getDay() !== dow) last = addDays(last, -1);
+      return last;
+    }
+    var d = new Date(year, month, 1);
+    while (d.getDay() !== dow) d = addDays(d, 1);
+    d = addDays(d, 7 * (week - 1));
+    return d.getMonth() === month ? d : null;
+  }
+
   function expandAll(events) {
     var occ = [], limit = addDays(today(), HORIZON_DAYS);
     events.forEach(function (ev) {
@@ -67,6 +80,15 @@
         while (d <= until && d <= limit) {
           occ.push({ ev: ev, date: d, endDate: d });
           d = addDays(d, 7);
+        }
+      } else if (ev.recurs && ev.recurs.freq === "monthly") {
+        var mFrom = parseDate(ev.recurs.from);
+        var mUntil = parseDate(ev.recurs.until);
+        var cur = new Date(mFrom.getFullYear(), mFrom.getMonth(), 1);
+        while (cur <= mUntil && cur <= limit) {
+          var md = nthWeekdayOfMonth(cur.getFullYear(), cur.getMonth(), DOW[ev.recurs.day], ev.recurs.week);
+          if (md && md >= mFrom && md <= mUntil && md <= limit) occ.push({ ev: ev, date: md, endDate: md });
+          cur = new Date(cur.getFullYear(), cur.getMonth() + 1, 1);
         }
       } else if (ev.date) {
         var start = parseDate(ev.date);
@@ -213,6 +235,14 @@
 
   /* ---------- modal ---------- */
 
+  function recursLabel(r) {
+    if (r.freq === "monthly") {
+      var ord = r.week === "last" ? "last" : { 1: "1st", 2: "2nd", 3: "3rd", 4: "4th" }[r.week];
+      return "repeats the " + ord + " " + r.day + " of each month";
+    }
+    return "repeats every " + r.day;
+  }
+
   function gcalUrl(ev, dateISO) {
     var base = "https://calendar.google.com/calendar/render?action=TEMPLATE";
     var dates;
@@ -245,7 +275,7 @@
       '<span class="badge ' + catClass(ev.category) + '">' + esc(ev.category) + "</span>" +
       "<h2>" + esc(ev.title) + "</h2>" +
       '<div class="m-row"><span class="m-ico">&#128197;</span><span>' + esc(when) +
-      (ev.recurs ? " (repeats every " + esc(ev.recurs.day) + " through " + esc(fmtDateLong(parseDate(ev.recurs.until))) + ")" : "") + "</span></div>" +
+      (ev.recurs ? " (" + esc(recursLabel(ev.recurs)) + " through " + esc(fmtDateLong(parseDate(ev.recurs.until))) + ")" : "") + "</span></div>" +
       (ev.time ? '<div class="m-row"><span class="m-ico">&#128336;</span><span>' + fmtTime(ev.time) + (ev.endTime ? " – " + fmtTime(ev.endTime) : "") + "</span></div>" : "") +
       (ev.venue ? '<div class="m-row"><span class="m-ico">&#128205;</span><span>' + esc(ev.venue) + (ev.town ? ", " + esc(ev.town) : "") +
         ' &middot; <a href="https://www.google.com/maps/search/?api=1&query=' + mapQ + '" target="_blank" rel="noopener">Map</a></span></div>' : "") +

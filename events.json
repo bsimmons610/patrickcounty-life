@@ -1,5 +1,5 @@
 {
-  "_note": "Use admin.html to generate new entries. STILL-UNVERIFIED placeholders (dates/details are guesses): kibler-valley-river-run-2026, stuart-farmers-market, dehart-summer-concert-jul-2026, fairy-stone-hunt-jul-2026, reynolds-lawn-concert-aug-2026, primland-stargazing-aug-2026, trunk-or-treat-2026, veterans-day-2026, christmas-parade-2026. Everything else is verified from an official source.",
+  "_note": "Use admin.html to generate new entries (recurs supports freq weekly, or monthly with week 1-4 or 'last'). STILL-UNVERIFIED placeholders: reynolds-lawn-concert-aug-2026, primland-stargazing-aug-2026, trunk-or-treat-2026, veterans-day-2026, christmas-parade-2026. Everything else verified (sources: organizers' sites, Facebook events, The Enterprise community calendar).",
   "events": [
     {
       "id": "kibler-valley-river-run-2026",
@@ -77,29 +77,6 @@
       "venue": "Location TBA",
       "town": "Stuart",
       "description": "The Patrick County Chamber of Commerce and Rotary Club of Stuart host a joint community event on connecting communities. Open to the public."
-    },
-    {
-      "id": "dehart-summer-concert-jul-2026",
-      "title": "Summer Concert Series at DeHart Park",
-      "category": "Live Music",
-      "date": "2026-07-18",
-      "time": "18:00",
-      "endTime": "21:00",
-      "venue": "DeHart Park",
-      "town": "Stuart",
-      "description": "Bring a lawn chair for an evening of live music at DeHart Park. Concessions available; kids' playground on site."
-    },
-    {
-      "id": "fairy-stone-hunt-jul-2026",
-      "title": "Guided Fairy Stone Hunt & Junior Ranger Day",
-      "category": "Family",
-      "date": "2026-07-25",
-      "time": "10:00",
-      "endTime": "13:00",
-      "venue": "Fairy Stone State Park",
-      "town": "Stuart",
-      "description": "Ranger-led hunt for the famous staurolite 'fairy stone' crosses, plus Junior Ranger activities for kids. Meet at the park office.",
-      "link": "https://www.dcr.virginia.gov/state-parks/fairy-stone"
     },
     {
       "id": "beach-music-festival-2026",
@@ -438,6 +415,249 @@
       "town": "Stuart",
       "description": "Regular monthly meeting of the Stuart Town Council. Open to the public — contact the town office to be placed on the agenda.",
       "link": "https://stuartva.org/town-council-meetings/"
+    },
+    {
+      "id": "senior-citizens-2026-07-09",
+      "title": "Senior Citizens Group Gathering",
+      "category": "Community",
+      "date": "2026-07-09",
+      "time": "11:00",
+      "venue": "Hooker Building, Rotary Field",
+      "town": "Stuart",
+      "description": "Patrick County seniors gather for entertainment and a potluck lunch at the Hooker Building. All seniors welcome."
+    },
+    {
+      "id": "evening-farmers-market-2026-07-14",
+      "title": "Stuart Evening Farmers' Market",
+      "category": "Food & Farm",
+      "date": "2026-07-14",
+      "time": "17:00",
+      "endTime": "19:00",
+      "venue": "Downtown Stuart",
+      "town": "Stuart",
+      "description": "Evening edition of the farmers market: fresh produce, eggs, baked goods, peanuts, and handcrafted items."
+    },
+    {
+      "id": "school-board-2026-07-14",
+      "title": "Patrick County School Board Meeting",
+      "category": "Community",
+      "date": "2026-07-14",
+      "time": "17:30",
+      "venue": "School Board Office",
+      "town": "Stuart",
+      "description": "Regular meeting of the Patrick County School Board. Open to the public."
+    },
+    {
+      "id": "food-bank-2026-07-15",
+      "title": "Patrick County Food Bank Distribution",
+      "category": "Community",
+      "date": "2026-07-15",
+      "venue": "Multiple locations",
+      "town": "Countywide",
+      "description": "Food bank distribution day: Stuart 8:30-11 a.m. and 5-6:30 p.m.; Ararat 8-10 a.m.; Meadows of Dan 5:30 p.m."
+    },
+    {
+      "id": "ross-harbour-meal-2026-07-17",
+      "title": "Free Community Meal",
+      "category": "Community",
+      "date": "2026-07-17",
+      "time": "16:00",
+      "endTime": "18:00",
+      "venue": "Ross Harbour Methodist Church",
+      "town": "Stuart",
+      "description": "Free community meal at Ross Harbour Methodist Church. Everyone welcome."
+    },
+    {
+      "id": "fairystone-vfd-food-truck-2026-07-17",
+      "title": "Community Food Truck at Fairystone VFD",
+      "category": "Community",
+      "date": "2026-07-17",
+      "time": "15:00",
+      "endTime": "16:00",
+      "venue": "Fairystone Volunteer Fire Department",
+      "town": "Stuart",
+      "description": "Community food truck stop at the Fairystone Volunteer Fire Department."
+    },
+    {
+      "id": "movie-night-2026-07-18",
+      "title": "Movie Night at Patrick Springs Christian Church",
+      "category": "Family",
+      "date": "2026-07-18",
+      "time": "18:00",
+      "venue": "Patrick Springs Christian Church",
+      "town": "Patrick Springs",
+      "description": "Family movie night with finger foods at Patrick Springs Christian Church."
+    },
+    {
+      "id": "planning-commission-2026-07-21",
+      "title": "Patrick County Planning Commission Meeting",
+      "category": "Community",
+      "date": "2026-07-21",
+      "time": "18:00",
+      "venue": "Patrick & Henry Community College, Community Room",
+      "town": "Stuart",
+      "description": "Regular meeting of the Patrick County Planning Commission. Open to the public."
+    },
+    {
+      "id": "willis-gap-open-jam",
+      "title": "Appalachian Acoustic Open Jam",
+      "category": "Live Music",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Friday",
+        "from": "2026-07-10",
+        "until": "2026-12-25"
+      },
+      "time": "18:30",
+      "endTime": "21:00",
+      "venue": "Willis Gap Community Center",
+      "town": "Ararat",
+      "description": "Weekly Appalachian acoustic open jam at the Willis Gap Community Center. Pickers and listeners both welcome."
+    },
+    {
+      "id": "american-legion-105-meeting",
+      "title": "American Legion Post 105 Meeting",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 3,
+        "day": "Friday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "19:00",
+      "venue": "American Legion Post 105, 553 American Legion Rd",
+      "town": "Stuart",
+      "description": "Monthly meeting of American Legion Post 105."
+    },
+    {
+      "id": "vfw-7800-meeting",
+      "title": "VFW Post 7800 Meal & Meeting",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 4,
+        "day": "Tuesday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "18:00",
+      "venue": "VFW Post 7800, 939 VFW Rd",
+      "town": "Patrick Springs",
+      "description": "VFW Post 7800 monthly gathering: meal at 6 p.m., meeting at 7 p.m."
+    },
+    {
+      "id": "honor-guard-meeting",
+      "title": "Veterans Memorial Honor Guard Meeting",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 1,
+        "day": "Tuesday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "19:00",
+      "venue": "American Legion Post 105, 553 American Legion Rd",
+      "town": "Stuart",
+      "description": "Monthly meeting of the Veterans Memorial Honor Guard at American Legion Post 105."
+    },
+    {
+      "id": "salem-church-community-meal",
+      "title": "Salem Church Community Meal",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 1,
+        "day": "Sunday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "12:10",
+      "venue": "Salem Church, Salem Church Rd",
+      "town": "Critz",
+      "description": "Free community meal at Salem Church, first Sunday of every month. Everyone welcome."
+    },
+    {
+      "id": "patrick-springs-ruritan-meeting",
+      "title": "Patrick Springs Ruritan Club Meeting",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 2,
+        "day": "Thursday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "18:30",
+      "venue": "Patrick Springs Park",
+      "town": "Patrick Springs",
+      "description": "Monthly meeting of the Patrick Springs Ruritan Club."
+    },
+    {
+      "id": "vesta-alzheimers-group",
+      "title": "Vesta Alzheimer's Support Group",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 3,
+        "day": "Tuesday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "12:00",
+      "venue": "Vesta Community Center",
+      "town": "Vesta",
+      "description": "Monthly lunch meeting of the Vesta Alzheimer's support group."
+    },
+    {
+      "id": "stuart-alzheimers-group",
+      "title": "Patrick County Alzheimer's Group Meeting",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 1,
+        "day": "Monday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "18:00",
+      "venue": "109 Buena Vista",
+      "town": "Stuart",
+      "description": "Monthly meeting of the Patrick County Alzheimer's Group."
+    },
+    {
+      "id": "raven-rock-community-meal",
+      "title": "Raven Rock Community Meal",
+      "category": "Community",
+      "recurs": {
+        "freq": "monthly",
+        "week": 4,
+        "day": "Wednesday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "17:00",
+      "venue": "Raven Rock Wesleyan Church, 1912 Raven Rock Rd",
+      "town": "Ararat",
+      "description": "Free community meal at Raven Rock Wesleyan Church, fourth Wednesday of the month."
+    },
+    {
+      "id": "willis-gap-golden-oldies",
+      "title": "Golden Oldies Jam",
+      "category": "Live Music",
+      "recurs": {
+        "freq": "monthly",
+        "week": "last",
+        "day": "Tuesday",
+        "from": "2026-07-08",
+        "until": "2026-12-31"
+      },
+      "time": "18:30",
+      "endTime": "21:00",
+      "venue": "Willis Gap Community Center",
+      "town": "Ararat",
+      "description": "Golden Oldies jam session at the Willis Gap Community Center, last Tuesday of every month."
     }
   ]
 }
