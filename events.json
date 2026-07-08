@@ -696,6 +696,29 @@
       "link": "https://www.facebook.com/events/1162428980290846/"
     },
     {
+      "id": "kinnfolk-chateau-2026-07-11",
+      "title": "Kinnfolk at Chateau Morrisette",
+      "category": "Live Music",
+      "date": "2026-07-11",
+      "time": "13:00",
+      "endTime": "16:00",
+      "venue": "Chateau Morrisette Winery, 291 Winery Rd",
+      "town": "Floyd",
+      "description": "An afternoon of Celtic traditional tunes with Kinnfolk, paired with wine at Chateau Morrisette on the Blue Ridge Parkway near Meadows of Dan.",
+      "link": "https://www.facebook.com/events/840799375761059"
+    },
+    {
+      "id": "milepost-music-2026-09-06",
+      "title": "Milepost Music: The Lovely Mountaineers",
+      "category": "Live Music",
+      "date": "2026-09-06",
+      "time": "14:00",
+      "endTime": "16:00",
+      "venue": "Mabry Mill, Milepost 176",
+      "town": "Meadows of Dan",
+      "description": "Sunday-afternoon roots music at Mabry Mill on the Blue Ridge Parkway with the Lovely Mountaineers."
+    },
+    {
       "id": "milepost-music-2026-07-19",
       "title": "Milepost Music: Ashlee Watkins & Andrew Small",
       "category": "Live Music",
