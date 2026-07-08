@@ -81,6 +81,11 @@
           occ.push({ ev: ev, date: d, endDate: d });
           d = addDays(d, 7);
         }
+      } else if (ev.recurs && ev.recurs.dates) {
+        ev.recurs.dates.forEach(function (ds) {
+          var dd = parseDate(ds);
+          if (dd <= limit) occ.push({ ev: ev, date: dd, endDate: dd });
+        });
       } else if (ev.recurs && ev.recurs.freq === "monthly") {
         var mFrom = parseDate(ev.recurs.from);
         var mUntil = parseDate(ev.recurs.until);
@@ -236,6 +241,7 @@
   /* ---------- modal ---------- */
 
   function recursLabel(r) {
+    if (r.dates) return "runs on " + r.dates.length + " select dates";
     if (r.freq === "monthly") {
       var ord = r.week === "last" ? "last" : { 1: "1st", 2: "2nd", 3: "3rd", 4: "4th" }[r.week];
       return "repeats the " + ord + " " + r.day + " of each month";
@@ -275,7 +281,7 @@
       '<span class="badge ' + catClass(ev.category) + '">' + esc(ev.category) + "</span>" +
       "<h2>" + esc(ev.title) + "</h2>" +
       '<div class="m-row"><span class="m-ico">&#128197;</span><span>' + esc(when) +
-      (ev.recurs ? " (" + esc(recursLabel(ev.recurs)) + " through " + esc(fmtDateLong(parseDate(ev.recurs.until))) + ")" : "") + "</span></div>" +
+      (ev.recurs ? " (" + esc(recursLabel(ev.recurs)) + (ev.recurs.until ? " through " + esc(fmtDateLong(parseDate(ev.recurs.until))) : "") + ")" : "") + "</span></div>" +
       (ev.time ? '<div class="m-row"><span class="m-ico">&#128336;</span><span>' + fmtTime(ev.time) + (ev.endTime ? " – " + fmtTime(ev.endTime) : "") + "</span></div>" : "") +
       (ev.venue ? '<div class="m-row"><span class="m-ico">&#128205;</span><span>' + esc(ev.venue) + (ev.town ? ", " + esc(ev.town) : "") +
         ' &middot; <a href="https://www.google.com/maps/search/?api=1&query=' + mapQ + '" target="_blank" rel="noopener">Map</a></span></div>' : "") +

@@ -1,5 +1,5 @@
 {
-  "_note": "Use admin.html to generate new entries (recurs supports freq weekly, or monthly with week 1-4 or 'last'). STILL-UNVERIFIED placeholders: reynolds-lawn-concert-aug-2026, primland-stargazing-aug-2026, trunk-or-treat-2026, veterans-day-2026, christmas-parade-2026. Everything else verified (sources: organizers' sites, Facebook events, The Enterprise community calendar).",
+  "_note": "Use admin.html to generate entries (recurs: freq weekly; freq monthly with week 1-4 or 'last'; or dates:[...] list). STILL-UNVERIFIED placeholders: trunk-or-treat-2026, veterans-day-2026, christmas-parade-2026. Everything else verified (sources: organizers, Facebook events, The Enterprise, county/town sites, visitpatrickcounty.org feed).",
   "events": [
     {
       "id": "kibler-valley-river-run-2026",
@@ -22,9 +22,10 @@
       },
       "time": "08:00",
       "endTime": "12:00",
-      "venue": "Downtown Stuart",
+      "venue": "Stuart Farmers' Market, 320 Chestnut Ave",
       "town": "Stuart",
-      "description": "Local produce, meats, eggs, baked goods, and crafts from Patrick County farms and makers. Every Friday morning through October."
+      "description": "Local produce, meats, eggs, baked goods, and crafts from Patrick County farms and makers. Every Friday morning through October.",
+      "link": "https://www.facebook.com/StuartFarmersMarketVA/"
     },
     {
       "id": "rotary-on-tap-2026-07-15",
@@ -33,9 +34,10 @@
       "date": "2026-07-15",
       "time": "18:00",
       "endTime": "20:00",
-      "venue": "Stagecoach",
+      "venue": "Uptown Stagecoach",
       "town": "Stuart",
-      "description": "Grab a pint with the Rotary Club of Stuart and support Patrick County High School teachers. A casual evening social — everyone welcome."
+      "description": "Grab a pint with the Rotary Club of Stuart and support Patrick County High School teachers. A casual evening social — everyone welcome.",
+      "link": "https://www.facebook.com/events/1685275306022018/"
     },
     {
       "id": "stagecoach-third-thursday-2026-07-16",
@@ -45,7 +47,9 @@
       "time": "18:00",
       "venue": "Uptown Stagecoach",
       "town": "Stuart",
-      "description": "Third Thursday make-and-take: craft a HOME porch leaner sign with an interchangeable letter O to swap out through the seasons."
+      "description": "Third Thursday make-and-take: craft a HOME porch leaner sign with an interchangeable letter O to swap out through the seasons.",
+      "endTime": "21:00",
+      "link": "https://www.facebook.com/events/2193486431499388/"
     },
     {
       "id": "crochet-and-chill-2026-07-18",
@@ -76,7 +80,8 @@
       "time": "18:00",
       "venue": "Location TBA",
       "town": "Stuart",
-      "description": "The Patrick County Chamber of Commerce and Rotary Club of Stuart host a joint community event on connecting communities. Open to the public."
+      "description": "The Patrick County Chamber of Commerce and Rotary Club of Stuart host a joint community event on connecting communities. Open to the public.",
+      "link": "https://www.facebook.com/events/1037798365573135/"
     },
     {
       "id": "beach-music-festival-2026",
@@ -88,18 +93,6 @@
       "town": "Stuart",
       "description": "Three days of beach music at Wayside Park, hosted by the Rotary Club of Stuart. The 2026 lineup featured The Embers, Jim Quick & Coastline, The Tams, and The Swingin' Medallions, with camping on site. Back for year 45 in 2027 — dates announced at beachfestival.com.",
       "link": "https://beachfestival.com"
-    },
-    {
-      "id": "reynolds-lawn-concert-aug-2026",
-      "title": "Lawn Concert at Reynolds Homestead",
-      "category": "Live Music",
-      "date": "2026-08-08",
-      "time": "17:00",
-      "endTime": "20:00",
-      "venue": "Reynolds Homestead",
-      "town": "Critz",
-      "description": "Evening concert on the lawn of the historic Reynolds Homestead. Picnics welcome; tours of the 1843 home before the show.",
-      "link": "https://reynoldshomestead.vt.edu"
     },
     {
       "id": "hammerheads-golf-tournament-2026",
@@ -118,29 +111,21 @@
       "category": "Festivals",
       "date": "2026-08-15",
       "time": "16:00",
-      "venue": "Dominion Valley Park",
+      "venue": "Dominion Valley Park, 415 Dominion Valley Park Rd",
       "town": "Stuart",
-      "description": "A free concert and community celebration at Dominion Valley Park. Live music, food, and family fun — no ticket required."
-    },
-    {
-      "id": "primland-stargazing-aug-2026",
-      "title": "Stargazing at the Primland Observatory",
-      "category": "Outdoors",
-      "date": "2026-08-15",
-      "time": "21:00",
-      "endTime": "23:00",
-      "venue": "Primland Resort",
-      "town": "Meadows of Dan",
-      "description": "Guided night-sky viewing from Primland's mountaintop observatory — some of the darkest skies in Virginia. Reservations required."
+      "description": "A free concert and community celebration at Dominion Valley Park. Live music, food, and family fun — no ticket required.",
+      "link": "https://www.facebook.com/events/2009938459897844/"
     },
     {
       "id": "demolition-derby-2026",
       "title": "Demolition Derby",
       "category": "Family",
       "date": "2026-08-29",
-      "venue": "Rotary Field",
+      "venue": "Patrick County Fairgrounds, 420 Woodland Dr",
       "town": "Stuart",
-      "description": "Crashing, smashing, engine-revving fun as the Rotary Club of Stuart hosts the annual Demolition Derby. Concessions on site."
+      "description": "Crashing, smashing, engine-revving fun as the Rotary Club of Stuart hosts the annual Demolition Derby. Concessions on site.",
+      "time": "19:00",
+      "link": "https://www.facebook.com/events/1732343038216022/"
     },
     {
       "id": "indigo-shibori-2026-08-30",
@@ -185,7 +170,8 @@
       "venue": "South Main Street, Downtown Stuart",
       "town": "Stuart",
       "description": "Fall festival in downtown Stuart with fresh apple dumplings, craft and food vendors, live music, and kids' activities.",
-      "featured": true
+      "featured": true,
+      "link": "https://www.facebook.com/events/1669701057599376/"
     },
     {
       "id": "trunk-or-treat-2026",
@@ -510,9 +496,10 @@
       },
       "time": "18:30",
       "endTime": "21:00",
-      "venue": "Willis Gap Community Center",
+      "venue": "Willis Gap Community Center, 144 The Hollow Rd",
       "town": "Ararat",
-      "description": "Weekly Appalachian acoustic open jam at the Willis Gap Community Center. Pickers and listeners both welcome."
+      "description": "Weekly Appalachian acoustic open jam at the Willis Gap Community Center. Pickers and listeners both welcome.",
+      "link": "https://www.facebook.com/wego4music"
     },
     {
       "id": "american-legion-105-meeting",
@@ -655,9 +642,350 @@
       },
       "time": "18:30",
       "endTime": "21:00",
-      "venue": "Willis Gap Community Center",
+      "venue": "Willis Gap Community Center, 144 The Hollow Rd",
       "town": "Ararat",
-      "description": "Golden Oldies jam session at the Willis Gap Community Center, last Tuesday of every month."
+      "description": "Golden Oldies jam session at the Willis Gap Community Center, last Tuesday of every month.",
+      "link": "https://www.facebook.com/wego4music"
+    },
+    {
+      "id": "we-impact-virginia-2026-07-08",
+      "title": "We Impact Virginia: Community in Succession & Transition",
+      "category": "Community",
+      "date": "2026-07-08",
+      "time": "10:00",
+      "endTime": "12:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "A community conversation on succession and transition in rural Virginia, hosted at Reynolds Homestead.",
+      "link": "https://www.facebook.com/events/1996411390997709/"
+    },
+    {
+      "id": "paddle-safety-2026-07-08",
+      "title": "Paddle Safety Class",
+      "category": "Outdoors",
+      "date": "2026-07-08",
+      "time": "17:00",
+      "endTime": "19:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Learn canoe and kayak safety basics with park staff at Fairy Stone State Park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-04-20-15-04-54-176757-1f2"
+    },
+    {
+      "id": "paddle-safety-2026-07-18",
+      "title": "Paddle Safety Class",
+      "category": "Outdoors",
+      "date": "2026-07-18",
+      "time": "10:00",
+      "endTime": "12:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Learn canoe and kayak safety basics with park staff at Fairy Stone State Park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-04-20-15-04-54-176757-1f2"
+    },
+    {
+      "id": "sunset-market-2026-07-17",
+      "title": "The Sunset Market",
+      "category": "Food & Farm",
+      "date": "2026-07-17",
+      "time": "16:00",
+      "endTime": "20:00",
+      "venue": "2135 Jeb Stuart Hwy",
+      "town": "Meadows of Dan",
+      "description": "An evening market in Meadows of Dan: local produce, makers, and food. Your evening, made local.",
+      "link": "https://www.facebook.com/events/1162428980290846/"
+    },
+    {
+      "id": "milepost-music-2026-07-19",
+      "title": "Milepost Music: Ashlee Watkins & Andrew Small",
+      "category": "Live Music",
+      "date": "2026-07-19",
+      "time": "14:00",
+      "endTime": "16:00",
+      "venue": "Mabry Mill",
+      "town": "Meadows of Dan",
+      "description": "An afternoon of old-time and roots music at Mabry Mill on the Blue Ridge Parkway.",
+      "link": "https://www.facebook.com/events/26942440772065367/"
+    },
+    {
+      "id": "nocturnal-neighbors-2026-07-18",
+      "title": "Nocturnal Neighbors: Insect Discovery Night",
+      "category": "Outdoors",
+      "date": "2026-07-18",
+      "time": "21:00",
+      "endTime": "22:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "After-dark insect discovery program with park staff at Fairy Stone State Park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-05-26-20-45-06-143075-28m"
+    },
+    {
+      "id": "rural-assembly-virtual-2026-07-23",
+      "title": "Rural Assembly Everywhere (Virtual)",
+      "category": "Community",
+      "date": "2026-07-23",
+      "time": "13:00",
+      "venue": "Online event",
+      "town": "",
+      "description": "Virtual gathering of the Rural Assembly - join from anywhere in the county.",
+      "link": "https://www.facebook.com/events/1015133464421839/"
+    },
+    {
+      "id": "senior-christmas-in-july-2026-07-24",
+      "title": "Senior Social: Christmas in July",
+      "category": "Community",
+      "date": "2026-07-24",
+      "time": "11:00",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Christmas-in-July themed senior social at the Patrick County Library.",
+      "link": "https://www.facebook.com/events/2006221220282943/"
+    },
+    {
+      "id": "canoeing-with-ghosts-2026-07-25",
+      "title": "Canoeing with Ghosts",
+      "category": "Outdoors",
+      "date": "2026-07-25",
+      "time": "20:00",
+      "endTime": "21:30",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "An evening paddle with spooky park stories on Fairy Stone Lake. Reservations through the park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-02-11-11-28-09-294971-w5i"
+    },
+    {
+      "id": "painting-with-grace-2026-07-26",
+      "title": "Homestead Artisan Series: Painting with Grace",
+      "category": "Arts & Culture",
+      "date": "2026-07-26",
+      "time": "14:00",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Guided painting workshop in the Homestead Artisan Series at Reynolds Homestead.",
+      "link": "https://www.facebook.com/events/728739420296930/"
+    },
+    {
+      "id": "yoga-flow-reynolds",
+      "title": "Yoga Flow with Ally Snead",
+      "category": "Community",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Wednesday",
+        "from": "2026-07-08",
+        "until": "2026-08-26"
+      },
+      "time": "18:30",
+      "endTime": "19:45",
+      "venue": "Reynolds Homestead",
+      "town": "Critz",
+      "description": "Evening yoga flow on the grounds of Reynolds Homestead. All levels welcome.",
+      "link": "https://www.facebook.com/events/4394915167493443/"
+    },
+    {
+      "id": "coffee-break-tuesday-music",
+      "title": "Tuesday Music at the Coffee Break",
+      "category": "Live Music",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Tuesday",
+        "from": "2026-07-14",
+        "until": "2026-12-29"
+      },
+      "time": "09:00",
+      "endTime": "11:00",
+      "venue": "Coffee Break, 111 N Main St",
+      "town": "Stuart",
+      "description": "Live acoustic music over morning coffee, hosted by the Patrick County Music Association.",
+      "link": "https://www.facebook.com/PCMAssn"
+    },
+    {
+      "id": "fairy-stone-monday-market",
+      "title": "Monday Market at Fairy Stone",
+      "category": "Food & Farm",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Monday",
+        "from": "2026-07-13",
+        "until": "2026-09-28"
+      },
+      "time": "17:00",
+      "endTime": "19:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Evening market at Fairy Stone State Park with local growers and makers.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-02-27-09-45-34-232533-0uw"
+    },
+    {
+      "id": "welcome-campfire-fairy-stone",
+      "title": "Welcome Campfire",
+      "category": "Family",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Friday",
+        "from": "2026-07-10",
+        "until": "2026-07-31"
+      },
+      "time": "19:00",
+      "endTime": "20:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Friday-evening welcome campfire with park staff - s'mores-friendly family fun at Fairy Stone State Park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-06-16-07-37-55-322027-x29"
+    },
+    {
+      "id": "fairy-stone-hunt",
+      "title": "Fairy Stone Hunt",
+      "category": "Family",
+      "recurs": {
+        "dates": [
+          "2026-07-09",
+          "2026-07-10",
+          "2026-07-11",
+          "2026-07-12",
+          "2026-07-13",
+          "2026-07-14",
+          "2026-07-16",
+          "2026-07-17",
+          "2026-07-19",
+          "2026-07-20",
+          "2026-07-21",
+          "2026-07-23",
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26",
+          "2026-07-27",
+          "2026-07-28",
+          "2026-07-30",
+          "2026-07-31"
+        ]
+      },
+      "time": "13:00",
+      "endTime": "14:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Ranger-led hunt for the park's famous staurolite fairy-stone crosses. Offered most days this summer - check the park calendar.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-05-11-15-42-28-370304-qpu"
+    },
+    {
+      "id": "creek-scene-investigation",
+      "title": "C.S.I.: Creek Scene Investigation",
+      "category": "Family",
+      "recurs": {
+        "dates": [
+          "2026-07-10",
+          "2026-07-16",
+          "2026-07-23",
+          "2026-07-30"
+        ]
+      },
+      "time": "16:00",
+      "endTime": "17:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "Hands-on creek critter investigation with park staff at Fairy Stone State Park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-06-12-17-21-30-648297-ly4"
+    },
+    {
+      "id": "stargazing-new-moon",
+      "title": "Stargazing: New Moon",
+      "category": "Outdoors",
+      "recurs": {
+        "dates": [
+          "2026-07-13",
+          "2026-08-12"
+        ]
+      },
+      "time": "21:00",
+      "endTime": "23:00",
+      "venue": "Fairy Stone State Park",
+      "town": "Stuart",
+      "description": "New-moon stargazing under some of the darkest skies in the region, at Fairy Stone State Park.",
+      "link": "https://www.dcr.virginia.gov/state-parks/event?id=2026-06-10-14-33-39-475976-n0j"
+    },
+    {
+      "id": "library-quilt-bee",
+      "title": "Library Quilt Bee Group",
+      "category": "Arts & Culture",
+      "recurs": {
+        "dates": [
+          "2026-07-09",
+          "2026-08-13",
+          "2026-09-10",
+          "2026-10-08",
+          "2026-11-12",
+          "2026-12-10"
+        ]
+      },
+      "time": "14:00",
+      "endTime": "16:00",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Monthly quilt bee at the Patrick County Library. November and December sessions run 1-3 p.m.",
+      "link": "https://www.facebook.com/events/933729299485236/"
+    },
+    {
+      "id": "music-at-the-villa",
+      "title": "Music at the Villa",
+      "category": "Live Music",
+      "recurs": {
+        "dates": [
+          "2026-07-11",
+          "2026-07-18",
+          "2026-07-19",
+          "2026-07-25",
+          "2026-08-01",
+          "2026-08-08",
+          "2026-08-15",
+          "2026-08-22",
+          "2026-08-29",
+          "2026-09-05",
+          "2026-09-12",
+          "2026-09-19",
+          "2026-09-26",
+          "2026-10-03",
+          "2026-10-10",
+          "2026-10-17",
+          "2026-10-24",
+          "2026-10-31"
+        ]
+      },
+      "time": "13:00",
+      "endTime": "16:00",
+      "venue": "Villa Appalaccia Winery, 752 Rock Castle Gorge Rd",
+      "town": "Floyd",
+      "description": "Live music on the patio at Villa Appalaccia Winery, just off the Blue Ridge Parkway near Mabry Mill.",
+      "link": "https://www.villaappalaccia.com/upcoming-events/"
+    },
+    {
+      "id": "pizza-at-the-villa",
+      "title": "Pizza at the Villa",
+      "category": "Food & Farm",
+      "recurs": {
+        "dates": [
+          "2026-07-12",
+          "2026-07-19",
+          "2026-07-26",
+          "2026-08-02",
+          "2026-08-09",
+          "2026-08-16",
+          "2026-08-23",
+          "2026-08-30",
+          "2026-09-06",
+          "2026-09-13",
+          "2026-09-20",
+          "2026-09-27",
+          "2026-10-04",
+          "2026-10-11",
+          "2026-10-18",
+          "2026-10-25"
+        ]
+      },
+      "time": "12:00",
+      "endTime": "16:30",
+      "venue": "Villa Appalaccia Winery, 752 Rock Castle Gorge Rd",
+      "town": "Floyd",
+      "description": "Sunday wood-fired pizza and wine afternoons at Villa Appalaccia, near Mabry Mill on the Parkway.",
+      "link": "https://www.villaappalaccia.com/upcoming-events/"
     }
   ]
 }
