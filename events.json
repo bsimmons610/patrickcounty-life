@@ -3,15 +3,12 @@
   "events": [
     {
       "id": "kibler-valley-river-run-2026",
-      "title": "Kibler Valley River Run",
+      "title": "CANCELED: Kibler Valley River Run",
       "category": "Outdoors",
       "date": "2026-07-11",
-      "time": "09:00",
-      "endTime": "16:00",
       "venue": "Kibler Valley",
       "town": "Ararat",
-      "description": "Annual whitewater release on the Dan River through Kibler Valley. Kayaking, tubing, food vendors, and live music in one of the prettiest hollows in the county.",
-      "featured": true
+      "description": "The 43rd annual river run has been canceled for 2026. Drought conditions left the Pinnacles Hydro Plant unable to provide the water release the Dan River run depends on, per the Red Bank Ruritan Club. Organizers hope to bring it back in 2027."
     },
     {
       "id": "stuart-farmers-market",
