@@ -25,6 +25,27 @@
       "description": "Local produce, meats, eggs, baked goods, and crafts from Patrick County farms and makers. Every Friday morning through October."
     },
     {
+      "id": "rotary-on-tap-2026-07-15",
+      "title": "Rotary on Tap: Pints for PCHS Teachers",
+      "category": "Community",
+      "date": "2026-07-15",
+      "time": "18:00",
+      "endTime": "20:00",
+      "venue": "Stagecoach",
+      "town": "Stuart",
+      "description": "Grab a pint with the Rotary Club of Stuart and support Patrick County High School teachers. A casual evening social — everyone welcome."
+    },
+    {
+      "id": "rural-everywhere-2026-07-27",
+      "title": "Rural Everywhere: Chamber & Rotary Joint Meeting",
+      "category": "Community",
+      "date": "2026-07-27",
+      "time": "18:00",
+      "venue": "Location TBA",
+      "town": "Stuart",
+      "description": "The Patrick County Chamber of Commerce and Rotary Club of Stuart host a joint community event on connecting communities. Open to the public."
+    },
+    {
       "id": "dehart-summer-concert-jul-2026",
       "title": "Summer Concert Series at DeHart Park",
       "category": "Live Music",
@@ -103,6 +124,15 @@
       "description": "Guided night-sky viewing from Primland's mountaintop observatory — some of the darkest skies in Virginia. Reservations required."
     },
     {
+      "id": "demolition-derby-2026",
+      "title": "Demolition Derby",
+      "category": "Family",
+      "date": "2026-08-29",
+      "venue": "Rotary Field",
+      "town": "Stuart",
+      "description": "Crashing, smashing, engine-revving fun as the Rotary Club of Stuart hosts the annual Demolition Derby. Concessions on site."
+    },
+    {
       "id": "indigo-shibori-2026-08-30",
       "title": "Homestead Artisan Series: Indigo Shibori",
       "category": "Arts & Culture",
@@ -129,13 +159,11 @@
       "id": "ag-fair-2026",
       "title": "Patrick County Agricultural Fair",
       "category": "Festivals",
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "endDate": "2026-09-19",
-      "time": "17:00",
-      "endTime": "22:00",
       "venue": "Rotary Field",
       "town": "Stuart",
-      "description": "The county fair: livestock shows, exhibits, carnival rides, demolition derby, fair food, and a week of small-town fun.",
+      "description": "Fair week in Patrick County: livestock shows, exhibits, carnival rides, fair food, and small-town fun at Rotary Field, hosted by the Rotary Club of Stuart.",
       "featured": true
     },
     {
