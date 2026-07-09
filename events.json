@@ -59,7 +59,8 @@
       "time": "10:30",
       "venue": "Patrick County Library",
       "town": "Stuart",
-      "description": "A laid-back crochet session at the Patrick County Library, hosted by the Blue Ridge Regional Library."
+      "description": "A laid-back crochet session at the Patrick County Library, hosted by the Blue Ridge Regional Library.",
+      "endTime": "13:30"
     },
     {
       "id": "youth-art-program-2026-07-22",
@@ -784,7 +785,8 @@
       "venue": "Online event",
       "town": "",
       "description": "Virtual gathering of the Rural Assembly - join from anywhere in the county.",
-      "link": "https://www.facebook.com/events/1015133464421839/"
+      "link": "https://www.facebook.com/events/1015133464421839/",
+      "endTime": "14:30"
     },
     {
       "id": "senior-christmas-in-july-2026-07-24",
@@ -1096,6 +1098,134 @@
       "town": "Critz",
       "description": "Fall session kickoff for the College for Older Adults - lifelong-learning classes for the 55+ crowd. Registration through Reynolds Homestead.",
       "link": "https://reynoldshomestead.vt.edu/calendar.html"
+    },
+    {
+      "id": "sunset-market-2026-07-10",
+      "title": "The Sunset Market",
+      "category": "Food & Farm",
+      "date": "2026-07-10",
+      "time": "16:00",
+      "endTime": "20:00",
+      "venue": "2135 Jeb Stuart Hwy",
+      "town": "Meadows of Dan",
+      "description": "Evening market in Meadows of Dan with local farmers, makers, bakers, and artists - this week featuring H's BBQ and snowcones.",
+      "link": "https://www.facebook.com/events/986441784216051/"
+    },
+    {
+      "id": "sunset-market-2026-07-11",
+      "title": "The Sunset Market",
+      "category": "Food & Farm",
+      "date": "2026-07-11",
+      "time": "15:00",
+      "endTime": "20:00",
+      "venue": "2135 Jeb Stuart Hwy",
+      "town": "Meadows of Dan",
+      "description": "Saturday edition of the Sunset Market: local farmers, makers, bakers, and artists, with H's BBQ, snowcones, and live music from Dog Water.",
+      "link": "https://www.facebook.com/events/1006739501976565/"
+    },
+    {
+      "id": "mahjong-101-2026-07-10",
+      "title": "MahJong 101",
+      "category": "Community",
+      "date": "2026-07-10",
+      "time": "11:00",
+      "endTime": "13:00",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Beginner mahjong instruction at the Patrick County Library. Free; registration required.",
+      "link": "https://www.facebook.com/profile.php?id=100064511509232"
+    },
+    {
+      "id": "library-family-movies",
+      "title": "Family Movie Afternoon",
+      "category": "Family",
+      "recurs": {
+        "dates": [
+          "2026-07-13",
+          "2026-07-27"
+        ]
+      },
+      "time": "15:30",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Free family movie screenings at the Patrick County Library."
+    },
+    {
+      "id": "sports-trivia-2026-07-16",
+      "title": "Sports Trivia Night",
+      "category": "Family",
+      "date": "2026-07-16",
+      "time": "18:00",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Free sports trivia at the Patrick County Library for ages 12 and up."
+    },
+    {
+      "id": "book-bedazzled-2026-07-18",
+      "title": "Book Bedazzled",
+      "category": "Arts & Culture",
+      "date": "2026-07-18",
+      "time": "11:00",
+      "endTime": "13:00",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Craft session at the Patrick County Library - decorate and celebrate your favorite book (bring your own copy)."
+    },
+    {
+      "id": "back-to-school-experience-2026-07-25",
+      "title": "Community Back-to-School Experience",
+      "category": "Family",
+      "date": "2026-07-25",
+      "time": "11:00",
+      "endTime": "15:00",
+      "venue": "Rotary Field",
+      "town": "Stuart",
+      "description": "Free back-to-school event for students of all grade levels at Rotary Field - supplies, resources, and family fun."
+    },
+    {
+      "id": "disaster-relief-food-2026-08-06",
+      "title": "Disaster Relief Food Distribution",
+      "category": "Community",
+      "date": "2026-08-06",
+      "time": "14:00",
+      "endTime": "16:00",
+      "venue": "Rotary Field",
+      "town": "Stuart",
+      "description": "Monthly food assistance distribution at Rotary Field."
+    },
+    {
+      "id": "first-friday-jam-2026-08-07",
+      "title": "First Friday Summer Jam: Striking Copper",
+      "category": "Live Music",
+      "date": "2026-08-07",
+      "time": "18:00",
+      "venue": "Stuart Farmers' Market, 320 Chestnut Ave",
+      "town": "Stuart",
+      "description": "First Friday concert at the farmers market pavilion with Striking Copper. $5 adults.",
+      "link": "https://www.facebook.com/StuartFarmersMarketVA/"
+    },
+    {
+      "id": "milepost-music-2026-08-16",
+      "title": "Milepost Music: Slate Mountain Ramblers",
+      "category": "Live Music",
+      "date": "2026-08-16",
+      "time": "14:00",
+      "endTime": "16:00",
+      "venue": "Mabry Mill, Milepost 176",
+      "town": "Meadows of Dan",
+      "description": "Sunday-afternoon old-time music at Mabry Mill with the Slate Mountain Ramblers."
+    },
+    {
+      "id": "lunch-and-learn-2026-08-18",
+      "title": "Employee Handbook & Workforce Law Lunch & Learn",
+      "category": "Community",
+      "date": "2026-08-18",
+      "time": "12:00",
+      "endTime": "13:00",
+      "venue": "P&HCC Patrick County Site",
+      "town": "Stuart",
+      "description": "The Patrick County Chamber of Commerce and P&HCC host a lunch-and-learn on keeping employee handbooks current with changing Virginia workforce law.",
+      "link": "https://www.facebook.com/events/1716621336212685/"
     }
   ]
 }

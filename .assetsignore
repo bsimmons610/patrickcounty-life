@@ -1,3 +1,4 @@
 .assetsignore
 wrangler.jsonc
 README.md
+tools/
