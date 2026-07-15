@@ -61,6 +61,12 @@ ALIASES = {
     'little historians story activity historic porch': 'little-historians',
     'painting grace homestead artisan series': 'painting-with-grace-2026-07-26',
     'we impact virginia role community succession transition': 'we-impact-virginia-2026-07-08',
+    'book bedazzing': 'book-bedazzled-2026-07-18',
+    'employee handbook workforce law update lunch learn': 'lunch-and-learn-2026-08-18',
+    'movies park i c dehart park': 'movies-at-the-park-2026-07-18',
+    'coming home evening storytelling appalachian superstitions': 'coming-home-storytelling',
+    'object permanence': 'object-permanence',
+    'sunset market presents summer meadow summer celebration': 'summer-in-the-meadow-2026-08-15',
 }
 
 

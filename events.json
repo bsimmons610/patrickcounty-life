@@ -36,7 +36,7 @@
       "endTime": "20:00",
       "venue": "Uptown Stagecoach",
       "town": "Stuart",
-      "description": "Grab a pint with the Rotary Club of Stuart and support Patrick County High School teachers. A casual evening social — everyone welcome.",
+      "description": "Grab a pint with the Rotary Club of Stuart and support Patrick County High School teachers. $5 donation at the door - everyone welcome.",
       "link": "https://www.facebook.com/events/1685275306022018/"
     },
     {
@@ -59,8 +59,7 @@
       "time": "10:30",
       "venue": "Patrick County Library",
       "town": "Stuart",
-      "description": "A laid-back crochet session at the Patrick County Library, hosted by the Blue Ridge Regional Library.",
-      "endTime": "13:30"
+      "description": "A laid-back crochet session at the Patrick County Library, hosted by the Blue Ridge Regional Library."
     },
     {
       "id": "youth-art-program-2026-07-22",
@@ -447,15 +446,20 @@
       "description": "Patrick County seniors gather for entertainment and a potluck lunch at the Hooker Building. All seniors welcome."
     },
     {
-      "id": "evening-farmers-market-2026-07-14",
+      "id": "stuart-evening-market",
       "title": "Stuart Evening Farmers' Market",
       "category": "Food & Farm",
-      "date": "2026-07-14",
       "time": "17:00",
       "endTime": "19:00",
       "venue": "Downtown Stuart",
       "town": "Stuart",
-      "description": "Evening edition of the farmers market: fresh produce, eggs, baked goods, peanuts, and handcrafted items."
+      "description": "Evening edition of the farmers market: fresh produce, eggs, baked goods, and handcrafted items. Tuesdays through the season - check the market Facebook page to confirm dates.",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Tuesday",
+        "from": "2026-07-14",
+        "until": "2026-09-29"
+      }
     },
     {
       "id": "school-board-2026-07-14",
@@ -510,13 +514,13 @@
     },
     {
       "id": "planning-commission-2026-07-21",
-      "title": "Patrick County Planning Commission Meeting",
+      "title": "CANCELED: Patrick County Planning Commission Meeting",
       "category": "Community",
       "date": "2026-07-21",
       "time": "18:00",
       "venue": "Patrick & Henry Community College, Community Room",
       "town": "Stuart",
-      "description": "Regular meeting of the Patrick County Planning Commission. Open to the public."
+      "description": "The July 21 Planning Commission meeting has been canceled, per The Enterprise (July 14). Next regular meeting expected in August."
     },
     {
       "id": "willis-gap-open-jam",
@@ -532,7 +536,7 @@
       "endTime": "21:00",
       "venue": "Willis Gap Community Center, 144 The Hollow Rd",
       "town": "Ararat",
-      "description": "Weekly Appalachian acoustic open jam at the Willis Gap Community Center. Pickers and listeners both welcome.",
+      "description": "Weekly Appalachian acoustic open jam at the Willis Gap Community Center. Kitchen opens 5:30 PM; music and dancing 6:30-9. Pickers and listeners both welcome.",
       "link": "https://www.facebook.com/wego4music"
     },
     {
@@ -678,7 +682,7 @@
       "endTime": "21:00",
       "venue": "Willis Gap Community Center, 144 The Hollow Rd",
       "town": "Ararat",
-      "description": "Golden Oldies jam session at the Willis Gap Community Center, last Tuesday of every month.",
+      "description": "Golden Oldies open jam at the Willis Gap Community Center, last Tuesday of every month. Kitchen opens 5:30 PM; music and dancing 6:30-9.",
       "link": "https://www.facebook.com/wego4music"
     },
     {
@@ -836,7 +840,7 @@
         ]
       },
       "time": "18:30",
-      "endTime": "19:30",
+      "endTime": "19:45",
       "venue": "Reynolds Homestead",
       "town": "Critz",
       "description": "Evening yoga flow on the grounds of Reynolds Homestead. All levels welcome.",
@@ -1169,7 +1173,8 @@
       "endTime": "13:00",
       "venue": "Patrick County Library",
       "town": "Stuart",
-      "description": "Craft session at the Patrick County Library - decorate and celebrate your favorite book (bring your own copy)."
+      "description": "Bedazzle your own book at the Patrick County Library - bring a book or journal, all other materials supplied. Free, no registration; 276-694-3352 for info.",
+      "link": "https://www.facebook.com/events/1573114914206118/"
     },
     {
       "id": "back-to-school-experience-2026-07-25",
@@ -1226,6 +1231,126 @@
       "town": "Stuart",
       "description": "The Patrick County Chamber of Commerce and P&HCC host a lunch-and-learn on keeping employee handbooks current with changing Virginia workforce law.",
       "link": "https://www.facebook.com/events/1716621336212685/"
+    },
+    {
+      "id": "dss-advisory-2026-07-21",
+      "title": "DSS Advisory Board Meeting",
+      "category": "Community",
+      "date": "2026-07-21",
+      "time": "16:00",
+      "venue": "Veterans Memorial Administration Building, DSS Conference Room",
+      "town": "Stuart",
+      "description": "Patrick County Department of Social Services Advisory Board meeting, third-floor DSS conference room. Open to the public."
+    },
+    {
+      "id": "new-hope-cookout-2026-07-18",
+      "title": "Outdoor Cookout & Open Jam at New Hope",
+      "category": "Community",
+      "date": "2026-07-18",
+      "time": "17:00",
+      "venue": "New Hope Community Church, 1863 Clark House Farm Rd",
+      "town": "Patrick Springs",
+      "description": "Outdoor cookout and acoustic open jam at New Hope Community Church. Bring a lawn chair - everyone welcome."
+    },
+    {
+      "id": "movies-at-the-park-2026-07-18",
+      "title": "Movies in the Park: Goat",
+      "category": "Family",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "venue": "I.C. DeHart Memorial Park, 2631 Charity Hwy",
+      "town": "Woolwine",
+      "description": "Free outdoor movie night in Woolwine: the animated comedy Goat, about a small goat with a once-in-a-lifetime shot at the pros. Bring blankets and chairs.",
+      "link": "https://www.facebook.com/events/2242110653231111/"
+    },
+    {
+      "id": "rock-castle-reunion-2026-07-25",
+      "title": "Annual Rock Castle Reunion",
+      "category": "Community",
+      "date": "2026-07-25",
+      "time": "12:00",
+      "venue": "Meadows of Dan Community Center, 2858 Jeb Stuart Hwy",
+      "town": "Meadows of Dan",
+      "description": "Annual reunion for the Rock Castle community - bring photos, stories, artifacts, and a covered dish to share."
+    },
+    {
+      "id": "va-carolina-ruritan-2026-07-30",
+      "title": "Virginia-Carolina Ruritan Club Reorganizational Meeting",
+      "category": "Community",
+      "date": "2026-07-30",
+      "time": "19:00",
+      "venue": "Dominion Valley Park",
+      "town": "Meadows of Dan",
+      "description": "Reorganizational meeting of the Virginia-Carolina Ruritan Club, with light refreshments. New members welcome."
+    },
+    {
+      "id": "coming-home-storytelling",
+      "title": "Coming Home: Storytelling & Appalachian Superstitions",
+      "category": "Arts & Culture",
+      "recurs": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02"
+        ]
+      },
+      "time": "19:00",
+      "venue": "Cherry Orchard Theatre, Levering Orchard, 163 Levering Ln",
+      "town": "Ararat",
+      "description": "An evening of storytelling and Appalachian superstitions at the Cherry Orchard Theatre at Levering Orchard. Tickets $10 at the door; reservations accepted but not required.",
+      "link": "https://www.facebook.com/profile.php?id=100057133853132"
+    },
+    {
+      "id": "object-permanence",
+      "title": "Object Permanence: A One-Woman Show",
+      "category": "Arts & Culture",
+      "recurs": {
+        "dates": [
+          "2026-08-08",
+          "2026-08-09"
+        ]
+      },
+      "time": "19:00",
+      "venue": "Cherry Orchard Theatre, Levering Orchard, 163 Levering Ln",
+      "town": "Ararat",
+      "description": "L.C. Henderson's one-woman show exploring heartbreak, love, grief, and luck in a temporary world, staged at the Cherry Orchard Theatre at Levering Orchard."
+    },
+    {
+      "id": "summer-in-the-meadow-2026-08-15",
+      "title": "Summer in the Meadow at The Sunset Market",
+      "category": "Food & Farm",
+      "date": "2026-08-15",
+      "time": "10:00",
+      "endTime": "16:00",
+      "venue": "2135 Jeb Stuart Hwy",
+      "town": "Meadows of Dan",
+      "description": "All-day summer celebration at The Sunset Market: local vendors, handmade goods, fresh produce, food, and live music to wrap up the season.",
+      "link": "https://www.facebook.com/events/1787893239250808/"
+    },
+    {
+      "id": "book-bingo-2026-08-12",
+      "title": "Book Bingo at the Library",
+      "category": "Family",
+      "date": "2026-08-12",
+      "time": "10:30",
+      "venue": "Patrick County Library",
+      "town": "Stuart",
+      "description": "Free monthly bingo at the Patrick County Library - winners take home books."
+    },
+    {
+      "id": "ararat-ruritan-rook",
+      "title": "Rook Night at the Ararat Ruritan Club",
+      "category": "Community",
+      "recurs": {
+        "freq": "weekly",
+        "day": "Monday",
+        "from": "2026-07-20",
+        "until": "2026-12-28"
+      },
+      "time": "18:30",
+      "endTime": "20:00",
+      "venue": "Ararat Ruritan Club",
+      "town": "Ararat",
+      "description": "Weekly Rook card games at the Ararat Ruritan Club - come play or learn."
     }
   ]
 }
